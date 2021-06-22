@@ -3,7 +3,11 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
+    id 'com.github.dcendents.android-maven'
 }
+
+group='com.github.Mindinventory'
+
 
 android {
     compileSdkVersion 30
