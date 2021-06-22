@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WalkThroughAndroid</string>
+    <string name="choose_a_tasty_dish">Choose A Tasty Dish</string>
+    <string name="order_anything">Order anything you want from your Favorite restaurant.</string>
+    <string name="order">Order</string>
+    <string name="place_order">Place your personal order and make your day more delicious.</string>
+    <string name="pick_up_or_delivery">Pick Up or Delivery</string>
+    <string name="we_make_food">We make food ordering fast, simple and free.</string>
+    <string name="home_activity">Home Activity</string>
+</resources>

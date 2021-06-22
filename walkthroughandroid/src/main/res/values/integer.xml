@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_duration">500</integer>
+    <integer name="scale_anim_duration">500</integer>
+    <integer name="smooth_scale_anim_duration">2000</integer>
+    <integer name="fade_anim_duration">2000</integer>
+    <integer name="translate_anim_duration">700</integer>
+    <integer name="anim_interval">1000</integer>
+    <integer name="anim_slide_down_duration">1000</integer>
+    <integer name="drop_anim_start_duration">1000</integer>
+    <integer name="progress">75</integer>
+
+    <integer name="drop_anim_start">2000</integer>
+</resources>

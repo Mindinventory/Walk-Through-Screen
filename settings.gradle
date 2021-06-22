@@ -1,0 +1,4 @@
+include ':walkthrough-fragment-example'
+include ':walkthroughandroid'
+include ':walkthrough-activity-example'
+rootProject.name = "WalkThroughAndroid"

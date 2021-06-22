@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="true">
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-20%p"
+        android:toXDelta="-19%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+       />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-19%p"
+        android:toXDelta="-18%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-18%p"
+        android:toXDelta="-17%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-17%p"
+        android:toXDelta="-16%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-16%p"
+        android:toXDelta="-15%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-15%p"
+        android:toXDelta="-14%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-14%p"
+        android:toXDelta="-13%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-13%p"
+        android:toXDelta="-12%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-12%p"
+        android:toXDelta="-11%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-11%p"
+        android:toXDelta="-10%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-10%p"
+        android:toXDelta="-9%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-9%p"
+        android:toXDelta="-8%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-8%p"
+        android:toXDelta="-7%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-7%p"
+        android:toXDelta="-6%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-6%p"
+        android:toXDelta="-5%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-5%p"
+        android:toXDelta="-4%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-4%p"
+        android:toXDelta="-3%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-3%p"
+        android:toXDelta="-2%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-2%p"
+        android:toXDelta="-1%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="-1%p"
+        android:toXDelta="0%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+
+    <translate
+        android:duration="@integer/drop_anim_start"
+        android:fromXDelta="0%p"
+        android:toXDelta="1%"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        />
+</set>

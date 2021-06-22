@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="next">NEXT</string>
+    <string name="finish">FINISH</string>
+    <string name="skip">Skip</string>
+</resources>
