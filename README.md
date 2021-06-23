@@ -84,8 +84,8 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
                    descriptionColor { R.color.black } // Description Color
                    titleFontFamily { R.font.robotobold } // Title FontFamily
                    descriptionFontFamily { R.font.robotolight } // Description FontFamily
-                   titleFontSize { 8.0F } // Title Font Size, Keep upto 8.0F
-                   descriptionFontSize { 4.0F } // Description Font Size, Keep up to 4.0F
+                   titleFontSize { 8.0F } // Title Font Size
+                   descriptionFontSize { 4.0F } // Description Font Size
                    skipButtonFontFamily { R.font.robotolight } // Skip Button FontFamily
                    skipButtonColor { R.color.yellow } // Skip Button Color
                    backgroundColor { R.color.white } // Background Color for screen
@@ -167,6 +167,10 @@ It would be great for us if the reporter can share the below things to understan
 * [Glide](https://github.com/bumptech/glide)
 * [Activity Ktx](https://developer.android.com/kotlin/ktx/extensions-list)
 * [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
+
+### Limitation
+
+* Layout support up to 4.65 inch devices
 
 # LICENSE!
 

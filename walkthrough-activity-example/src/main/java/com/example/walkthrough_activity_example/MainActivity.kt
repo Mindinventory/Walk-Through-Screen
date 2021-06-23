@@ -48,32 +48,22 @@ class MainActivity : AppCompatActivity() {
             descriptionColor { R.color.black } // Description Color
             titleFontFamily { R.font.robotobold } // Title FontFamily
             descriptionFontFamily { R.font.robotolight } // Description FontFamily
-            titleFontSize { 8.0F } // Title Font Size, Keep upto 8.0F
-            descriptionFontSize { 4.0F } // Description Font Size, Keep up to 4.0F
+            titleFontSize { 22.0F } // Title Font Size
+            descriptionFontSize { 15.0F } // Description Font Size
             skipButtonFontFamily { R.font.robotolight } // Skip Button FontFamily
             skipButtonColor { R.color.yellow } // Skip Button Color
             backgroundColor { R.color.white } // Background Color for screen
-            activeIndicatorColor { R.color.yellow } // Active Indicator Color
-            inactiveIndicatorColor { R.color.light_yellow } // Inactive Indicator Color
-            indicatorStyle { IndicatorStyle.ROUNDED_RECTANGLE } // Indicator Style CIRCLE, RECTANGLE, SQUARE, ROUNDED_RECTANGLE, VECTOR, BITMAP
-            activeVectorDrawableRes { R.drawable.ic_heart } // Active Indicator Vector Drawable Res , Set If Indicator Style = VECTOR
-            inactiveVectorDrawableRes { R.drawable.ic_heart } // Inactive Indicator Vector Drawable Res , Set If Indicator Style = VECTOR
-            activeBitmapDrawableRes { R.drawable.tasty_dish } // Active Indicator Bitmap Drawable Res , Set If Indicator Style = BITMAP
-            inactiveBitmapDrawableRes { R.drawable.order } // Active Indicator Bitmap Drawable Res , Set If Indicator Style = BITMAP
-            activeVectorDrawableSize { 50 } // Active Vector Drawable Size in PX
-            inactiveVectorDrawableSize { 50 } // Inactive Vector Drawable Size in PX
-            activeBitmapDrawableSize { 50 } // Inactive Bitmap Drawable Size in PX
-            inactiveBitmapDrawableSize { 50 } // Inactive Bitmap Drawable Size in PX
+            indicatorStyle { IndicatorStyle.ROUNDED_RECTANGLE }
+            activeIndicatorWidth { R.dimen.dp_30 }
+            activeIndicatorHeight { R.dimen.dp_5 }
+            inactiveIndicatorWidth { R.dimen.dp_5 }
+            inactiveIndicatorHeight { R.dimen.dp_5 }
             indicatorGap { R.dimen.dp_5 } // Gap Between Indicators
             indicatorAnimationType { IndicatorAnimationType.NONE } // Indicator Animation Type  SCALE, SMOOTH_SCALE, LEFT_IN, RIGHT_IN, FLIP
-            activeIndicatorWidth { R.dimen.dp_30 } // Active Indicator Width
-            activeIndicatorHeight { R.dimen.dp_8 } // Active Indicator Height
-            inactiveIndicatorWidth { R.dimen.dp_8 } // Inactive Indicator Width
-            inactiveIndicatorHeight { R.dimen.dp_8 } // Inactive Indicator Height
-            contentAnimationType { ContentAnimationType.FADE } // Content Animation Type   FADE, SLIDER, SCALE, TOP_IN, BOTTOM_IN, BOUNCE
+            contentAnimationType { ContentAnimationType.NONE } // Content Animation Type   FADE, SLIDER, SCALE, TOP_IN, BOTTOM_IN, BOUNCE
             buttonColor { R.color.yellow } // Next/Finish Button Color
             buttonTextColor { R.color.white } // Next/Finish Button Text color
-            skipButtonFontSize { 4.0F } // Skip Button Font Size
+            skipButtonFontSize { 15.0F } // Skip Button Font Size
         }
 
         val resultLauncher =

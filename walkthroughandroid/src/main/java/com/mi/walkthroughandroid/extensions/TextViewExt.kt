@@ -17,8 +17,8 @@ fun TextView.setFontFamily(@FontRes font: Int) {
 /**
  * SetFontSize to TextView
  * */
-fun TextView.setFontSize(fontSize: Float, context: Context) {
-    this.setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize.spToPx(context))
+fun TextView.setFontSize(fontSize: Float) {
+    this.textSize = fontSize
 }
 
 /**
