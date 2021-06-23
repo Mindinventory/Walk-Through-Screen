@@ -162,7 +162,7 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
                 val walkThroughBundle = walkThroughIntent.extras
 	```
                 
-* Step 4. Add WalkThroughFragment in your navigation graph
+* Step 4. Add WalkThroughFragment in your navigation graph and provide your action from WalkThroughFragment to Your Fragment where you want to navigate user after OnBoarding Screens
 
 	```xml
 		 <fragment
@@ -170,15 +170,13 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
 			android:name="com.mi.walkthroughandroid.ui.fragment.WalkThroughFragment"
 			android:label="WalkThroughFragment"
 			tools:layout="@layout/fragment_walk_through">
-			<!--Your Action -->
+			<!--Provide Your Action to navigate -->
 		</fragment>
 	```
 
 * Step 5. Add Navigation Action from your fragment to WalkThroughFragment
 
-* Step 6. Add Navigation Action from WalkThroughFragment to Your Fragment where you want to navigate user after onboarding.
-
-* Step 7. Navigate from your fragment to WalkThroughFragment
+* Step 6. Navigate from your fragment(i.e, Here we have used SampleFragment) to WalkThroughFragment
 
 	```kotlin
 		findNavController().navigate(
@@ -187,9 +185,9 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
 			)
 	```
 
-* Step 8. Implement WalkThroughFragment.WalkThroughFragmentListener in your FragmentHostingActivity
+* Step 7. Implement WalkThroughFragment.WalkThroughFragmentListener in your FragmentHostingActivity
 
-* Step 9. Override onSkipOrFinish() method and Navigate to next fragment
+* Step 8. Override onSkipOrFinish() method and Navigate to next fragment
 
 	```kotlin
              override fun onSkipOrFinish(isFromOnSkip: Boolean) {
@@ -224,6 +222,11 @@ It would be great for us if the reporter can share the below things to understan
 ### Limitation
 
 * Layout support up to 4.65 inch devices
+
+### Sample for implementation
+
+* [With Activity](https://github.com/Mindinventory/Walk-Through-Screen/tree/master/walkthrough-activity-example)
+* [With Fragment](https://github.com/Mindinventory/Walk-Through-Screen/tree/master/walkthrough-fragment-example)
 
 # LICENSE!
 
