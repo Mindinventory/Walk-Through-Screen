@@ -40,8 +40,29 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
 
 ### Dependencies
 
-* Step 1. Add the JitPack repository to your build file (Need to update after publishing)
-* Step 2. Add the dependency (Need to update after publishing)
+* Step 1. Add the JitPack repository to your build file
+    
+    Add it in your root build.gradle at the end of repositories:
+
+    ```groovy
+	    allprojects {
+		    repositories {
+			    ...
+			    maven { url 'https://jitpack.io' }
+		    }
+	    }
+    ``` 
+
+* Step 2. Add the dependency
+    
+    Add it in your app module build.gradle:
+    
+    ```groovy
+        dependencies {
+            ...
+             implementation 'com.github.Mindinventory:Walk-Through-Screen:0.1.4'
+        }
+    ``` 
 
 ### Implementation
 
