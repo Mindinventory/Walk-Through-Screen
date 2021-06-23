@@ -197,13 +197,13 @@ class WalkThroughScreenMaker
             // Set title text and font size
             tvTitle.apply {
                 setText(walkThroughScreen.title)
-                setFontSize(walkThroughModel.titleFontSize, context)
+                setFontSize(walkThroughModel.titleFontSize)
             }
 
             // Set description text and font size
             tvDescription.apply {
                 setText(walkThroughScreen.description)
-                setFontSize(walkThroughModel.descriptionFontSize, context)
+                setFontSize(walkThroughModel.descriptionFontSize)
             }
         }
         //endregion
@@ -251,7 +251,7 @@ class WalkThroughScreenMaker
                     setFontFamily(walkThrough.skipButtonFontFamily)
                 }
 
-                setFontSize(walkThroughModel.skipButtonFontSize, context)
+                setFontSize(walkThroughModel.skipButtonFontSize)
             }
             //endregion
 
