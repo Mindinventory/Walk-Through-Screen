@@ -134,10 +134,23 @@ Make amazing OnBoarding Screens easily for your app with different colorful anim
 * Step 3. Get Bundle from intent
 
                 val walkThroughBundle = walkThroughIntent.extras
+                
+* Step 4. Add WalkThroughFragment in your navigation graph.
 
-* Step 4. Implement WalkThroughFragment.WalkThroughFragmentListener in your FragmentHostingActivity
+* Step 5. Add Navigation Action from your fragment to WalkThroughFragment
 
-* Step 5. Override and Navigate to next fragment
+* Step 6. Add Navigation Action from WalkThroughFragment to Your Fragment where you want to navigate user after onboarding.
+
+* Step 7. Navigate from your fragment to WalkThroughFragment.
+
+        findNavController().navigate(
+                    R.id.action_sampleFragment_to_walkThroughFragment,
+                    walkThroughBundle
+                )
+
+* Step 8. Implement WalkThroughFragment.WalkThroughFragmentListener in your FragmentHostingActivity
+
+* Step 9. Override onSkipOrFinish() method and Navigate to next fragment
 
              override fun onSkipOrFinish(isFromOnSkip: Boolean) {
                      findNavController(R.id.fragmentContainer).navigate(R.id.action_walkThroughFragment_to_homeFragment)
